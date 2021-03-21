@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Продумать как зафиксировать меню
+.menu {
+    position: fixed;
+    background-color: white;
+}
+*/
+
+/*Светлая тема*/
+a {
+    color: black;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+h2 {
+    color: #5265EB;
+}
+
+.index-grid {
+    display: grid;
+    column-gap: 30px;
+    row-gap: 20px;
+    grid-template-columns: 60px 270px 270px auto 270px 60px;
+    grid-template-rows: 60px auto auto auto;
+}
+
+.site-header {
+    grid-column: 2/6;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-right: 100px;
+    vertical-align: text-bottom;
+}
+
+.theme-img {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.decoration-line {
+    grid-column: 1/7;
+    border-bottom: 1px solid #59AFDE;
+}
+
+.hello {
+    grid-column: 2/5;
+}
+
+.img-hello {
+    grid-column: 5/6;
+}
+
+.skills-1 {
+    grid-column: 2/3;
+}
+.skills-2 {
+    grid-column: 3/4;
+}
+
+.skills-3 {
+    grid-column: 4/5;
+}
+
+.experience-1, .education-1,
+.feedback-1, .contact {
+    grid-column: 2/3;
+}
+
+.experience-2, .education-2,
+.feedback-2, .forma {
+    grid-column: 3/6;
+}
+
+.start-line {
+    margin-left: 0;
+}
+
+.period-time {
+    color: #8C8C8C;
+    font-style: italic;
+    line-height: 2px;
+}
+
+.portfolio {
+    grid-column: 2/6;
+}
+
+.portfolio-1, .portfolio-5 {
+    grid-column: 2/3;
+}
+
+.portfolio-2, .portfolio-6 {
+    grid-column: 3/4;
+}
+
+.portfolio-3, .portfolio-7 {
+    grid-column: 4/5;
+}
+
+.portfolio-4, .portfolio-8 {
+    grid-column: 5/6;
+}
+
+.site-footer {
+    text-align: center;
+    grid-column: 1/7;
+    background-color: #59AFDE;
+}
