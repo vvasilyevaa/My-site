@@ -68,7 +68,7 @@ h2 {
 }
 
 .experience-1, .education-1,
-.feedback-1, .contact {
+.feedback-1, .portfolio, .contact {
     grid-column: 2/3;
 }
 
@@ -87,9 +87,9 @@ h2 {
     line-height: 2px;
 }
 
-.portfolio {
+/*.portfolio {
     grid-column: 2/6;
-}
+}*/
 
 .portfolio-1, .portfolio-5 {
     grid-column: 2/3;
