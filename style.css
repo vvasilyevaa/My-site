@@ -42,8 +42,7 @@ h2 {
 .theme-img {
     grid-column: 6/7;
     grid-row: 1/2;
-    margin-top: 15px;
-    margin-right: 10px;
+   
 }
 
 .decoration-line {
