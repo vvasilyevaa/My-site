@@ -25,12 +25,12 @@ h2 {
     display: grid;
     column-gap: 30px;
     row-gap: 20px;
-    grid-template-columns: 60px 270px 270px 270px 270px auto 60px;
+    grid-template-columns: 60px 270px 270px 270px 270px 270px auto 60px;
     grid-template-rows: 60px auto auto auto;
 }
 
 .site-header {
-    grid-column: 2/7;
+    grid-column: 2/8;
 }
 
 .logo {
@@ -47,7 +47,7 @@ h2 {
 }
 
 .decoration-line {
-    grid-column: 1/8;
+    grid-column: 1/9;
     border-bottom: 1px solid #59AFDE;
 }
 
@@ -104,11 +104,11 @@ h2 {
 }
 
 .portfolio-4, .portfolio-8 {
-    grid-column: ;
+    grid-column: 6/7;
 }
 
 .site-footer {
     text-align: center;
-    grid-column: 1/8;
+    grid-column: 1/9;
     background-color: #59AFDE;
 }
