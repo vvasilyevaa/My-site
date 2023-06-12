@@ -92,19 +92,19 @@ h2 {
 }*/
 
 .portfolio-1, .portfolio-5 {
-    grid-column: 2/3;
-}
-
-.portfolio-2, .portfolio-6 {
     grid-column: 3/4;
 }
 
-.portfolio-3, .portfolio-7 {
+.portfolio-2, .portfolio-6 {
     grid-column: 4/5;
 }
 
-.portfolio-4, .portfolio-8 {
+.portfolio-3, .portfolio-7 {
     grid-column: 5/6;
+}
+
+.portfolio-4, .portfolio-8 {
+    grid-column: 6/7;
 }
 
 .site-footer {
