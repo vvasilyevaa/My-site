@@ -73,7 +73,7 @@ h2 {
 }
 
 .experience-2, .education-2,
-.feedback-2, .forma, .skills-2, .portfolio-0 {
+.feedback-2, .forma, .skills-2, {
     grid-column: 2/4;
 }
 
