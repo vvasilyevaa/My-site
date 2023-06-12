@@ -40,14 +40,14 @@ h2 {
 }
 
 .theme-img {
-    grid-column: 6/7;
+    grid-column: 6/8;
     grid-row: 1/2;
     margin-top: 15px;
     margin-right: 10px;
 }
 
 .decoration-line {
-    grid-column: 1/7;
+    grid-column: 1/8;
     border-bottom: 1px solid #59AFDE;
 }
 
